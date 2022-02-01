@@ -1,0 +1,28 @@
+{
+  "name": "radio-station-api",
+  "version": "1.0.0",
+  "description": "backend api for internet radio station website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drex04/radio-station-api.git"
+  },
+  "author": "Drew Nollsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drex04/radio-station-api/issues"
+  },
+  "homepage": "https://github.com/drex04/radio-station-api#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^5.0.2",
+    "@google-cloud/functions": "^1.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase": "^9.6.5",
+    "firebase-admin": "^10.0.2"
+  }
+}
